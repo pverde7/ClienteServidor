@@ -31,7 +31,7 @@
 			$registros[] = $arreglo;
 		}
 
-		$data['success'] = true;
+		$data['exito'] = true;
 		$data[$name] = $registros;
 		return json_encode($data);
     }	
